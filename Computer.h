@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Computer
+class Computer :public Player
 {
     public:
     string name_pc;

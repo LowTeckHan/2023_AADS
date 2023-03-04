@@ -6,12 +6,5 @@
 
 int main()
 {
-    Player *p1;
-    Referee ref;
-    
-    p1= new Player();
 
-
-
-    return 0;
 }
