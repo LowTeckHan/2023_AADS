@@ -14,7 +14,7 @@ Referee::Referee()
 Player* Referee::refGame(Player * player1, Player * player2)
 {
     
-    player1->makeMove();
+    //player1->makeMove();
 
     human__move=player1->getMove();
 
@@ -25,12 +25,12 @@ Player* Referee::refGame(Player * player1, Player * player2)
 
     else if(human__move=='P')
     {
-        cout<<player1<<" Win"<<endl;
+        cout<<"Human"<<" Win"<<endl;
     }
 
     else if(human__move=='S')
     {
-        cout<<player2<<" Win" << endl;
+        cout<<"Computer"<<" Win" << endl;
     }
 
     return 0;
