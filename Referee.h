@@ -7,6 +7,7 @@ class Referee
 {
     private:
     char human__move;
+    char pc_move;
 
     public:
     Player* refGame(Player * player1, Player * player2);//p1 pc, p2 human

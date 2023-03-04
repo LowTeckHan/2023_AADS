@@ -14,6 +14,7 @@ char Human::makeMove()
     cout<<"Enter move: "<<endl;
     cin>>human_move;
 
+    return 0;
 }
 
 string Human::getName()

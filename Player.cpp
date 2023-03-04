@@ -11,16 +11,16 @@ Player::Player()
 
 char Player::makeMove()
 {
-
+	return 0;
 }
 
 string Player::getName()
 {
-
+	return 0;
 }
 
 char Player::getMove()
 {
-
+	return 0;
 }
 
