@@ -11,7 +11,7 @@ Human::Human()
 
 char Human::makeMove()
 {
-    cout<<"Enter move: "<<endl;
+    //cout<<"Enter move: "<<endl;
     cin>>human_move;
 
     return 0;

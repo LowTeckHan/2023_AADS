@@ -14,9 +14,9 @@ Referee::Referee()
 Player* Referee::refGame(Player * player1, Player * player2)
 {
     
-    player2->makeMove();
+    player1->makeMove();
 
-    human__move=player2->getMove();
+    human__move=player1->getMove();
 
     if(human__move=='R')
     {
