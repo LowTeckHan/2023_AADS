@@ -14,7 +14,7 @@ Referee::Referee()
 Player* Referee::refGame(Player * player1, Player * player2)
 {
     
-    //player1->makeMove();
+    player1->makeMove();
 
     human__move=player1->getMove();
 
