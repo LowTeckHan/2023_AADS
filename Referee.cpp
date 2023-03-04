@@ -20,17 +20,17 @@ Player* Referee::refGame(Player * player1, Player * player2)
 
     if(human__move=='R')
     {
-        return nullptr;
+        cout<<"Tie"<<endl;;
     }
 
     else if(human__move=='P')
     {
-        cout<<"Computer"<<endl;
+        cout<<"Human"<<endl;
     }
 
     else if(human__move=='S')
     {
-        cout<<"Human"<< endl;
+        cout<<"Computer"<< endl;
     }
 
     return 0;
