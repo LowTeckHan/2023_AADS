@@ -14,7 +14,7 @@ class Move
 		Move();
 		~Move();
 
-		virtual int checkMove();
+		virtual int checkMove(std::string check);
 
 
 

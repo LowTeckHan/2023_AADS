@@ -76,7 +76,7 @@ Move::Move()
 
 }
 
-int Move::checkMove()
+int Move::checkMove(std::string check)
 {
 	return 0;
 }
