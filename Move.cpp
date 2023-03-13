@@ -73,5 +73,10 @@ string Move::getName()
 
 Move::Move()
 {
-	
+
+}
+
+int Move::checkMove()
+{
+	return 0;
 }
