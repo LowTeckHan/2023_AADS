@@ -17,7 +17,7 @@ Referee::Referee()
 Player* Referee::refGame(Player * player1, Player * player2)
 {   
     Anno anno;
-    Move* move;
+    Move move;
     int temp;
     
     human_name=player1->getName();
@@ -25,12 +25,12 @@ Player* Referee::refGame(Player * player1, Player * player2)
     pc_name   =player2->getName();
     pc_move   =player2->getMove();
 
-    move->makeMove(human_move);
-    temp=move->checkMove(pc_move);
+    move.makeMove(human_move);
+    temp=move.checkMove(pc_move);
 
     anno.checkwin(temp,human_name,pc_name);
 
-    delete[] move;
+
 
     return 0;
 }
