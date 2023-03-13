@@ -17,17 +17,17 @@ Referee::Referee()
 Player* Referee::refGame(Player * player1, Player * player2)
 {   
     Anno anno;
-    Move* move[1];
+    Move* move;
     
     human_name=player1->getName();
     pc_name   =player2->getName();
     pc_move   =player2->getMove();
 
-    move[0]->makeMove();
+    move->makeMove();
 
-    anno.checkwin(move[0]->checkMove(pc_move),human_name,pc_name);
+    anno.checkwin(move->checkMove(pc_move),human_name,pc_name);
 
-    delete[] move[0];
+    delete[] move;
 
     return 0;
 }
