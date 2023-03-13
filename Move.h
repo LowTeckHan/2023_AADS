@@ -12,11 +12,11 @@ class Move
 
 	public:
 		std::string getName();//return user move
-		Move* makeMove(std::string make);
+		static Move* makeMove(std::string make);
 		Move();
 		~Move();
 
-		virtual int checkMove(std::string check);
+		virtual checkMove(std::string choice)=0;
 
 
 

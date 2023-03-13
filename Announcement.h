@@ -9,6 +9,7 @@ class Anno
 
 	public:
 		void checkwin(int con, std::string p1, std::string p2);
+		Anno();
 };
 
 #endif

@@ -4,6 +4,11 @@
 
 using namespace std;
 
+Anno::Anno()
+{
+	
+}
+
 void Anno::checkwin(int con, string p1, string p2)// 1=tie, 2=p2 win, 3=p1 win
 {
 	if (con==1)

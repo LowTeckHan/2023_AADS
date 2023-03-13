@@ -13,21 +13,26 @@ Move* Rock::makeMove()
 
 int Rock::checkMove(string choice)// tie=1, lose=2 win=3
 {
-	int match=0;
+	//int match=0;
 
 	if(choice == "Rock")
 	{
-		return match =1;
+		return 1;
 	}
 
 	if(choice == "Paper")
 	{
-		return match =2;
+		return 2;
 	}
 
 	else
 	{
-		return match =3;
+		return 3;
 	}
 
+}
+
+int Rock::renum()
+{
+	return 5;
 }

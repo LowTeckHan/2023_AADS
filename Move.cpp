@@ -15,9 +15,9 @@
 
 using namespace std;
 
-Move* Move::makeMove(string make)
+Move* Move::makeMove(string choice)
 {	
-	make = choice;
+	//make = choice;
 
 	if (choice == "Rock")
 	{
@@ -82,7 +82,4 @@ Move::~Move()
 }
 
 
-int Move::checkMove(std::string check)
-{
-	return 0;
-}
+

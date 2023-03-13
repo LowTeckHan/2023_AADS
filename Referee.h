@@ -12,7 +12,7 @@ class Referee
     std::string p2_name;
 
     public:
-    Player* refGame(Player * player1, Player * player2);//p1 pc, p2 human
+    Player* refGame(Player * player1, Player * player2);
     Referee();
 
 

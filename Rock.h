@@ -11,6 +11,7 @@ class Rock : public Move
         Rock();
         Move *makeMove();
         int checkMove(std::string choice);
+        int renum();
 
 };
 
