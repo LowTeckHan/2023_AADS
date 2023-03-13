@@ -14,7 +14,7 @@ Referee::Referee()
 
 }
 
-Player* Referee::refGame(Player * player1, Player * player2)
+Player* Referee::refGame(int i, Player * player1, Player * player2)
 {   
     Anno anno;
     vector <Move*> move;
@@ -25,12 +25,11 @@ Player* Referee::refGame(Player * player1, Player * player2)
     p2_name = player2->getName();
     p2_move = player2->getMove();
 
+
     move.push_back(Move::makeMove(p1_move));
     con=move[0]->checkMove(p2_move);
 
     anno.checkwin(con, p1_name, p2_name);
-
-    delete move[0];
 
 
     return 0;
