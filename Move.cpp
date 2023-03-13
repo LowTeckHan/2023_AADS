@@ -15,49 +15,48 @@
 
 using namespace std;
 
-Move* Move::makeMove()
+Move* Move::makeMove(string make)
 {	
+	make = choice;
 
-	cin>>choice;
-
-	if (choice == "Rock")
+	if (make == "Rock")
 	{
 		return new Rock;
 		
 	}
 
-	else if (choice == "Paper")
+	else if (make == "Paper")
 	{
 		return new Paper;
 	}
 
-	else if(choice == "Scissors")
+	else if(make == "Scissors")
 	{
 		return new Scissors;
 	}
 
 
-	else if(choice == "Monkey")
+	else if(make == "Monkey")
 	{
 		return new Monkey;
 	}
 
-	else if(choice == "Ninja")
+	else if(make == "Ninja")
 	{
 		return new Ninja;
 	}
 
-	else if(choice == "Pirate")
+	else if(make == "Pirate")
 	{
 		return new Pirate;
 	}
 
-	else if(choice == "Robot")
+	else if(make == "Robot")
 	{
 		return new Robot;
 	}
 
-	else if (choice =="Zombie")
+	else if (make =="Zombie")
 	{
 		return new Zombie;
 	}

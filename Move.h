@@ -10,9 +10,9 @@ class Move
 
 	public:
 		std::string getName();//return user move
-		Move* makeMove();
+		Move* makeMove(std::string make);
 
-		virtual int checkMove(std::string choice);
+		virtual int checkMove(std::string check);
 
 };
 
