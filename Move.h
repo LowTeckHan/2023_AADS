@@ -11,6 +11,7 @@ class Move
 	public:
 		std::string getName();//return user move
 		Move* makeMove(std::string make);
+		Move();
 
 		virtual int checkMove(std::string check);
 

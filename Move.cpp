@@ -70,3 +70,8 @@ string Move::getName()
 {
 	return choice;
 }
+
+Move::Move()
+{
+	
+}
