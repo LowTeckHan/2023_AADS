@@ -18,7 +18,7 @@ Player* Referee::refGame(Player * player1, Player * player2)
 {   
     Anno anno;
     Move move[2];
-    int con;
+    int con=3;
     
     p1_name = player1->getName();
     p1_move = player1->getMove();
