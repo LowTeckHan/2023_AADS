@@ -6,6 +6,7 @@ using namespace std;
 
 void Anno::checkwin(int con, string p1, string p2)
 {
+	con =0;
 	if (con==1)
 	{
 		cout<<"Tie"<<endl;
