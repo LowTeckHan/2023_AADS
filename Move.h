@@ -16,7 +16,7 @@ class Move
 		Move();
 		~Move();
 
-		virtual checkMove(std::string choice)=0;
+		virtual int checkMove(std::string choice)=0;
 
 
 
