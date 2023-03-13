@@ -7,12 +7,11 @@ class Move
 {
 	private:
 		std::string choice;
-		std::string stuff="stuff-";
+
 
 	public:
 		std::string getName();//return user move
 		Move* makeMove(std::string make);
-		Move* makeMove();
 		Move();
 		~Move();
 

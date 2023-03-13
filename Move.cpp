@@ -15,13 +15,6 @@
 
 using namespace std;
 
-Move * Move::makeMove()
-{
-	cout<<"Stuff"<<endl;
-
-	return stuff;
-}
-
 Move* Move::makeMove(string make)
 {	
 	make = choice;
