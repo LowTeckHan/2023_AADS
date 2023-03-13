@@ -19,7 +19,7 @@ Move * Move::makeMove()
 {
 	cout<<"Stuff"<<endl;
 
-	return stuff
+	return stuff;
 }
 
 Move* Move::makeMove(string make)
