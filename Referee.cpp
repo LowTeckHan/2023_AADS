@@ -30,6 +30,8 @@ Player* Referee::refGame(Player * player1, Player * player2)
 
     anno.checkwin(con, p1_name, p2_name);
 
+    delete move[0];
+
 
     return 0;
 }
