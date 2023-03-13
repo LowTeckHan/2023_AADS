@@ -17,7 +17,7 @@ void Anno::checkwin(int con, string p1, string p2)
 		cout<<p2<<endl;
 	}
 
-	else if(con==2)
+	else if(con==3)
 	{
 		cout<<p1<<endl;
 	}
