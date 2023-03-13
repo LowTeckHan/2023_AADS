@@ -12,7 +12,7 @@ class Move
 		std::string getName();//return user move
 		Move* makeMove();
 
-		virtual checkMove(std::string choice);
+		virtual int checkMove(std::string choice);
 
 };
 
