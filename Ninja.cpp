@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 
+Ninja::Ninja()
+{
+
+}
+
 Move* Ninja::makeMove()
 {
 	return new Ninja;

@@ -3,6 +3,11 @@
 
 using namespace std;
 
+Pirate::Pirate()
+{
+	
+}
+
 Move* Pirate::makeMove()
 {
 	return new Pirate;

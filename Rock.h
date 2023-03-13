@@ -8,6 +8,7 @@ class Rock : public Move
     private:
 
     public:
+        Rock();
         Move *makeMove();
         int checkMove(std::string choice);
 

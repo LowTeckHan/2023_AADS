@@ -3,6 +3,13 @@
 
 using namespace std;
 
+Zombie::Zombie()
+{
+	
+}
+
+
+
 Move* Zombie::makeMove()
 {
 	return new Zombie;

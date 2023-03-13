@@ -3,6 +3,10 @@
 
 using namespace std;
 
+Robot::Robot()
+{
+	
+}
 
 int Robot::checkMove(string choice)// tie=1, lose=2 win=3
 {

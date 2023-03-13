@@ -19,44 +19,44 @@ Move* Move::makeMove(string make)
 {	
 	make = choice;
 
-	if (make == "Rock")
+	if (choice == "Rock")
 	{
 		return new Rock;
 		
 	}
 
-	else if (make == "Paper")
+	else if (choice == "Paper")
 	{
 		return new Paper;
 	}
 
-	else if(make == "Scissors")
+	else if(choice == "Scissors")
 	{
 		return new Scissors;
 	}
 
 
-	else if(make == "Monkey")
+	else if(choice == "Monkey")
 	{
 		return new Monkey;
 	}
 
-	else if(make == "Ninja")
+	else if(choice == "Ninja")
 	{
 		return new Ninja;
 	}
 
-	else if(make == "Pirate")
+	else if(choice == "Pirate")
 	{
 		return new Pirate;
 	}
 
-	else if(make == "Robot")
+	else if(choice == "Robot")
 	{
 		return new Robot;
 	}
 
-	else if (make =="Zombie")
+	else if (choice =="Zombie")
 	{
 		return new Zombie;
 	}
@@ -75,6 +75,12 @@ Move::Move()
 {
 
 }
+
+Move::~Move()
+{
+	
+}
+
 
 int Move::checkMove(std::string check)
 {

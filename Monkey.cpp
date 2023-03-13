@@ -2,6 +2,11 @@
 #include<iostream>
 using namespace std;
 
+Monkey::Monkey()
+{
+
+}
+
 Move* Monkey::makeMove()
 {
 	return new Monkey;

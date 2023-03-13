@@ -8,6 +8,7 @@ class Pirate : public Move
     private:
 
     public:
+        Pirate();
         Move *makeMove();
         int checkMove(std::string choice);
 

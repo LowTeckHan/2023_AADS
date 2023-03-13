@@ -1,5 +1,5 @@
 #include "Referee.h"
-#include"Player.h"
+#include "Player.h"
 #include "Move.h"
 #include "Announcement.h"
 #include <iostream>
@@ -28,7 +28,7 @@ Player* Referee::refGame(Player * player1, Player * player2)
     move.makeMove(human_move);
     temp=move.checkMove(pc_move);
 
-    anno.checkwin(temp,human_name,pc_name);
+    anno.checkwin(temp, human_name, pc_name);
 
 
 

@@ -8,6 +8,7 @@ class Monkey : public Move
     private:
 
     public:
+        Monkey();
         Move *makeMove();
         int checkMove(std::string choice);
 

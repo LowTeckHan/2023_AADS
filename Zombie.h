@@ -8,6 +8,8 @@ class Zombie : public Move
     private:
 
     public:
+        Zombie();
+        ~Zombie();
         Move *makeMove();
         int checkMove(std::string choice);
 

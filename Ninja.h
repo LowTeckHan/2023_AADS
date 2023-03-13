@@ -8,6 +8,7 @@ class Ninja : public Move
     private:
 
     public:
+        Ninja();
         Move *makeMove();
         int checkMove(std::string choice);
 

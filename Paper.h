@@ -8,6 +8,7 @@ class Paper : public Move
     private:
 
     public:
+        Paper();
         Move *makeMove();
         int checkMove(std::string choice);
 

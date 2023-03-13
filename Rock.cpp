@@ -2,7 +2,10 @@
 #include <iostream>
 using namespace std;
 
-
+Rock::Rock()
+{
+	
+}
 Move* Rock::makeMove()
 {
 	return new Rock;

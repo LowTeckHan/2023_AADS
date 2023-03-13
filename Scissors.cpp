@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 
+Scissors::Scissors()
+{
+	
+}
+
 Move* Scissors::makeMove()
 {
 	return new Scissors;

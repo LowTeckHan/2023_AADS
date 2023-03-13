@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 
+Paper::Paper()
+{
+	
+}
+
 Move* Paper::makeMove()
 {
 	return new Paper;
