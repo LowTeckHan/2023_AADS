@@ -1,6 +1,7 @@
 #ifndef MOVE_H
 #define MOVE_H
 #include <string>
+//#include "Human.h"
 
 
 class Move 
