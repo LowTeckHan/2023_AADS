@@ -7,13 +7,14 @@
 class Human : private Player
 {
     private:
-    std::string human_name;
+    std::string human_name="Human";
     std::string human_move;
 
     public:
     Move* makeMove();
     std::string getName();
     std::string getMove();
+    Human(std::string name);
     Human();
 
 

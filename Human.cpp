@@ -22,3 +22,13 @@ string Human::getMove()
 {
     return human_move;
 }
+
+Human::Human(string name)
+{
+    human_name=name;
+}
+
+Human::Human()
+{
+    
+}
