@@ -1,13 +1,13 @@
 #ifndef EfficientTruckloads_H
 #define EfficientTruckloads_H
 
-class E_Truckload
+class EfficientTruckloads
 {
 	private:
 
 	public:
 
-		int truckload(int numcrates, int loadsize);
+		int numTrucks(int numcrates, int loadsize);
 
 };
 

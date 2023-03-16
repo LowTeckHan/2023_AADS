@@ -8,7 +8,7 @@ class Truckloads
 
 	public:
 
-		int truckloads(int numcrates, int loadsize);
+		int numTrucks(int numcrates, int loadsize);
 
 };
 

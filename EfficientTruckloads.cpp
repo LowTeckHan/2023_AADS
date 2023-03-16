@@ -3,7 +3,7 @@
 #include <map>
 using namespace std;
 
-int E_Truckload::truckload(int num, int load)
+int EfficientTruckloads::numTrucks(int num, int load)
 {
 
 	static map<int,int> TL_v;
@@ -28,11 +28,11 @@ int E_Truckload::truckload(int num, int load)
 
 
 
-		int result= E_Truckload::truckload(num/2+num%2,load) + E_Truckload::truckload(num/2,load);
+		int result= EfficientTruckloads::numTrucks(num/2+num%2,load) + EfficientTruckloads::numTrucks(num/2,load);
 	TL_v.insert(pair<int,int>(num,result));
 
 
-	return E_Truckload::truckload(num/2+num%2,load) + E_Truckload::truckload(num/2,load);
+	return EfficientTruckloads::numTrucks(num/2+num%2,load) + EfficientTruckloads::numTrucks(num/2,load);
 
 
 	
