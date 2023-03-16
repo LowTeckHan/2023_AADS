@@ -3,7 +3,7 @@
 #include <map>
 using namespace std;
 
-int Truckload::truckload(int num, int load)
+int Truckloads::truckloads(int num, int load)
 {
 
 

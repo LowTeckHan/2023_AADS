@@ -2,13 +2,13 @@
 #define Truckloads_H
 
 
-class Truckload
+class Truckloads
 {
 	private:
 
 	public:
 
-		int truckload(int numcrates, int loadsize);
+		int truckloads(int numcrates, int loadsize);
 
 };
 
