@@ -1,6 +1,4 @@
 #include "Truckloads.h"
-#include<iostream>
-#include <map>
 using namespace std;
 
 int Truckloads::truckloads(int num, int load)
@@ -12,7 +10,7 @@ int Truckloads::truckloads(int num, int load)
 
 		return 1;
 	}	
-		return Truckload::truckload(num/2+num%2,load) + Truckload::truckload(num/2,load) ;
+		return Truckloads::truckloads(num/2+num%2,load) + Truckloads::truckloads(num/2,load) ;
 
 };
 

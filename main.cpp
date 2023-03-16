@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Reverse.h"
+#include "Reverser.h"
 #include "Truckloads.h"
 
 
@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	reverser r;
+	Reverser r;
 	string name="Panjoey";
 
 	cout<<r.reverseDigit(12345)<<endl;
@@ -15,7 +15,7 @@ int main()
 	cout<<r.reverseString(name)<<endl;
 
 
-	Truckload t;
+	Truckloads t;
 	int num, load;
 
 	//cout<<"num\n";
@@ -23,7 +23,7 @@ int main()
 	//cout<<"load\n";
 	//cin>>load;
 
-	cout<<t.truckload(10240000,1)<<endl;
+	cout<<t.truckloads(10240000,1)<<endl;
 	//cout<<t.truckload(15,1)<<endl;
 	//cout<<t.truckload(14,3)<<endl;
 
