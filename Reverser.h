@@ -2,7 +2,7 @@
 #define Reverser_H
 #include <string>
 
-class reverser
+class Reverser
 {
 	public:
 

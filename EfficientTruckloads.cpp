@@ -42,17 +42,3 @@ int E_Truckload::truckload(int num, int load)
 
 
 
-int main()
-{
-	E_Truckload t;
-	int num, load;
-
-	//cout<<"num\n";
-	//cin>>num;
-	//cout<<"load\n";
-	//cin>>load;
-
-	cout<<t.truckload(1024,5)<<endl;
-	cout<<t.truckload(1024,5)<<endl;
-	cout<<t.truckload(15,1)<<endl;
-}
