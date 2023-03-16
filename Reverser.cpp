@@ -2,7 +2,7 @@
 #include<iostream>
 
 using namespace std;
-reverser::reverseDigit(int value,int rev)
+int reverser::reverseDigit(int value,int rev)
 {	
 	if (value ==0)	
 	{
@@ -30,15 +30,3 @@ string reverser::reverseString(string charaters, int i)
 
 
 
-
-int main()
-{
-	reverser r;
-	string name="Panjoey";
-
-	cout<<r.reverseDigit(12345)<<endl;
-
-	cout<<r.reverseString(name)<<endl;
-
-	return 0;
-}
