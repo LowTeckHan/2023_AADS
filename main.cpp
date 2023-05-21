@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Heap.cpp"
+#include "Heap.tpp"
 
 int main() {
   // Create a heap of integers
@@ -17,7 +17,7 @@ int main() {
   std::cout << "Minimum value: " << min << std::endl;
 
   // Remove an element from the heap
-  heap.remove(5);
+  heap.remove(10);
 
   // Get the new minimum value
   min = heap.getMin();

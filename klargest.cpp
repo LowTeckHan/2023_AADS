@@ -19,13 +19,7 @@ int klargest::kth_largest(std::vector<int> values, int k)
 		p.push(a);
 	}
 
-	if(k>p.size())
-	{
-		kth=-1;
-	}
 
-	else
-	{
 		for(int i=0;i<k-1;i++)
 		{
 			p.pop();
@@ -33,7 +27,7 @@ int klargest::kth_largest(std::vector<int> values, int k)
 
 		kth=p.top();
 
-	}
+
 
 	return kth;
 }

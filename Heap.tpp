@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <cmath> // for floor()
+#include <algorithm>
 
 template <typename T>
 class Heap 
@@ -117,7 +118,7 @@ void Heap<T>::insert(T value)
 template <typename T>
 void Heap<T>::remove(T value) 
 {
-  auto it = std::find(values.begin(),values.end(),value); 
+  auto it = find(values.begin(),values.end(),value); 
   if(it != values.end())
   {
     int index=it -values.begin();
