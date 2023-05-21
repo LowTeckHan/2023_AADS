@@ -4,13 +4,6 @@
 
 using namespace std;
 
-class klargest
-{
-public:
-	klargest();
-	int kth_largest(vector<int> values, int k);
-
-};
 
 klargest::klargest()
 {
