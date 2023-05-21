@@ -1,15 +1,9 @@
 #include <vector>
 #include <queue>  
+#include "klargest.h"
 
 using namespace std;
 
-class klargest
-{
-public:
-	klargest();
-	int kth_largest(std::vector<int> values, int k);
-
-};
 
 klargest::klargest()
 {
