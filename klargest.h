@@ -1,5 +1,5 @@
-#ifndef klargest_H
-#define klargest_H
+#ifndef KLARGEST_H
+#define KLARGEST_H
 #include <vector>
 
 class klargest
