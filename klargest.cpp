@@ -1,22 +1,8 @@
 #include <vector>
-#include <queue>  
-
+#include <queue> 
 using namespace std;
-
-class klargest
-{
-public:
-	klargest();
-	int kth_largest(vector<int> values, int k);
-
-};
-
-klargest::klargest()
-{
-
-}
-
-int klargest::kth_largest(vector<int> values, int k)
+ 
+int kth_largest(vector<int> values, int k)
 {
 	priority_queue<int> p;
 	int kth=-1;
